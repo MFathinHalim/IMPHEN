@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Averia%20Serif%20Libre:700|Karla:400");
+
+:root {
+    --text: #09011e;
+    --background: #eef3fd;
+    --dark: #2f3136;
+    --primary: #1877f2;
+    --secondary: #5865f2;
+    --accent: #ff6563;
+}
+
+body,
+.list-group-item {
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+    font-size: large;
+    font-family: "Karla" !important;
+    font-weight: 400;
+}
+body {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.085) 1px, transparent 1px), linear-gradient(to bottom, rgba(128, 128, 128, 0.085) 1px, transparent 1px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Averia Serif Libre" !important;
+    font-weight: 700 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    background-color: var(--background);
+}
+
+
+.btn {
+    border: none !important;
+    font-size: xx-large !important;
+    font-family: "Karla" !important;
+    font-weight: normal;
+}
+.btn-primary {
+    background: var(--primary) !important;
+}
+.btn-secondary {
+    background-color: var(--secondary) !important;
+}
+.bg-dark {
+    background-color: #2f3136 !important;
+    color: var(--background) !important;
+}
+.border-gray {
+    border: 1px solid #4e5055d4 !important;
+}
